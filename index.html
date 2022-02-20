@@ -6,19 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Trello: A Ferramente para sua Organização</title>
+    <title>Trello: A Ferramenta para sua Organização</title>
 </head>
 <body>
+
+
     <header id="cabecalho">
-        <img src="./assets/img/trelloLogo.png" alt="Trello_logo" id="logo">
+        <a href="/"><img src="./assets/img/trelloLogo.png" id="logo" alt=""></a>
         <nav id="menu">
             <ul id="menu-itens">
-                <li class="item">Home</li>
-                <li class="item">Sobre</li>
-                <li class="item">Site</li>
+                <li class="item"><a href="/">Home</a></li>
+                <li class="item"><a href="#sobre">Sobre</a></li>
+                <li class="item"><a href="https://trello.com/pt-BR" target="_blank">Site</a></li>
             </ul>
         </nav>
-    </header>
-    <!--<img src="./assets/img/trelloIlustration.png" style="float: right;" alt="">-->
+    </header><!-- cabecalho -->
+
+
+    <main>
+        <section id="main-content">
+            <h1 id="principal-title"><span class="underline">Mais</span> organização?<br><span class="underline">Melhor</span> controle do tempo? <br> Venha para o <span class="font">Trello</span>!</h1>
+            <img src="./assets/img/trelloIlustration.png" id="trello-ilustration"  alt="">
+        </section>
+        <div id="button-vermais">
+            <a href="#sobre"><button id="vermais">Veja mais &darr;</button></a>
+        </div>
+
+        <section id="sobre">
+            <h1 id="title-sobre">Seu melhor amigo para o <br> <span class="font">controle</span> e <span class="font">gestão</span> de projetos</h1>
+
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
