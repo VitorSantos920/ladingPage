@@ -1,44 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Venha conhecer o Trello! Um software para gerenciar seus projetos e tarefas!">
-    <meta name="author" content="Vitor Hugo Pires dos Santos">
-    <meta name="keywords" content="organização, projeto, gerenciamento, software">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Trello: A Ferramenta para sua Organização</title>
-</head>
-<body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Venha conhecer o Trello! Um software para gerenciar seus projetos e tarefas!">
+        <meta name="author" content="Vitor Hugo Pires dos Santos">
+        <meta name="keywords" content="organização, projeto, gerenciamento, software">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="./assets/img/trello.png" type="image/x-icon">
+        <title>Trello: A Ferramenta para sua Organização</title>
+    </head>
+
+    <body>
+
+        <header id="cabecalho">
+            <a href="/"><img src="./assets/img/trelloLogo.png" id="logo" alt="Logo Trello"></a>
+            <nav id="menu">
+                <ul id="menu-itens">
+                    <li class="item"><a href="/">Home</a></li>
+                    <li class="item"><a href="#sobre">Sobre</a></li>
+                    <li class="item"><a href="https://trello.com/pt-BR" target="_blank">Comece agora!</a></li>
+                </ul>
+            </nav>
+        </header><!-- cabecalho -->
 
 
-    <header id="cabecalho">
-        <a href="/"><img src="./assets/img/trelloLogo.png" id="logo" alt=""></a>
-        <nav id="menu">
-            <ul id="menu-itens">
-                <li class="item"><a href="/">Home</a></li>
-                <li class="item"><a href="#sobre">Sobre</a></li>
-                <li class="item"><a href="https://trello.com/pt-BR" target="_blank">Site</a></li>
-            </ul>
-        </nav>
-    </header><!-- cabecalho -->
+        <main>
+            <section id="main-content">
+                <h1 id="principal-title"><span class="underline">Mais</span> organização?<br><span
+                        class="underline">Melhor</span> controle do tempo? <br> Venha para o <span
+                        class="font">Trello</span> !</h1>
+                <img src="./assets/img/trelloIlustration.png" id="trello-ilustration" alt="Ilustração Trello">
+            </section>
+            <div id="button-vermais">
+                <a href="#sobre"><button id="vermais">Veja mais &darr; </button></a>
+            </div> <!-- main-content -->
 
+            <section id="sobre">
+                <!-- Main-Title-Sobre -->
+                <header id="main-title-sobre">
+                    <h1 id="title-sobre">Seu melhor amigo para o <br> <span class="underline">controle</span> e <span class="underline">gestão</span> de projetos.</h1>
+                </header>
 
-    <main>
-        <section id="main-content">
-            <h1 id="principal-title"><span class="underline">Mais</span> organização?<br><span class="underline">Melhor</span> controle do tempo? <br> Venha para o <span class="font">Trello</span>!</h1>
-            <img src="./assets/img/trelloIlustration.png" id="trello-ilustration"  alt="">
-        </section>
-        <div id="button-vermais">
-            <a href="#sobre"><button id="vermais">Veja mais &darr;</button></a>
-        </div>
+                <!-- Images-Trello -->
+                <figure class="trello-interface">
+                    <img src="./assets/img/interfaceQuadro.png" class="trello-quadro-cartao"
+                        alt="Interface de Quadro Trello">
+                    <figcaption class="legend-trello"> ~Quadro de desenvolvimento desta Lading page~</figcaption>
+                </figure>
+                <figure class="trello-interface">
+                    <img src="./assets/img/interfaceCartao.png" class="trello-quadro-cartao"
+                        alt="Interface de Cartão Trello">
+                    <figcaption class="legend-trello">~Cartão de exemplo desta Lading page~</figcaption>
+                </figure>
 
-        <section id="sobre">
-            <h1 id="title-sobre">Seu melhor amigo para o <br> <span class="font">controle</span> e <span class="font">gestão</span> de projetos</h1>
-        </section>
-    </main>
-    <script src="script.js"></script>
-</body>
+                <!-- Benefits-Trello -->
+                <div id="benefits">
+                    <h3 id="title-benefits"><span class="underline">Vantagens:</span></h3>
+                    <ol id="benefits-list">
+                        <li class="advantage"><span class="underline">Simples</span> e <span
+                                class="underline">Eficiente</span>.</li>
+                        <li class="advantage">Visualização dos projetos em <span class="underline">etapas</span> e <span
+                                class="underline">ações</span> de tarefas.</li>
+                        <li class="advantage">Lógica do Fluxo em <span class="underline">Kanban</span>, permitindo uma
+                            melhor visão geral.</li>
+                        <li class="advantage">Visão e atribuições detalhadas das tarefas com os <span
+                                class="underline">cartões</span>.</li>
+                        <li class="advantage"><span class="underline">Compartilhamento</span> do painel com os membros da
+                            equipe.</li>
+                        <li class="advantage">Integração com outros softwares usando os <span
+                                class="underline">Power-Ups</span>.</li>
+                    </ol><!-- benefits-list  -->
+                </div>
+
+                <a href="http://www.trello.com/pt-BR" target="_blank"><button id="button-fazer">Comece a fazer! &rarr;</button></a>
+
+            </section> <!-- sobre -->
+        </main>
+
+        <footer id="rodape">
+            <p>Produzido por: <a href="https://www.github.com/VitorSantos920" target="_blank">Vitor Hugo Pires dos
+                    Santos</a></p>
+            <p class="rodape-p">Copyright &copy; 2022</p>
+            <p>Todos os direitos reservados.</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
 </html>
